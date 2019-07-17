@@ -1,0 +1,55 @@
+
+.signature-pad {
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    font-size: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+    padding: 16px;
+}
+
+
+.signature-pad--body {
+    position: relative;
+    height: 300px;
+    border: 1px solid rgba(214, 214, 214, 0.75);
+    display: block;
+}
+
+.signature-pad--body
+canvas {
+  height: 100%;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.signature-pad--footer {
+  color: #C3C3C3;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 8px;
+}
+
+.signature-pad--actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 8px;
+}
+
+#github img {
+  border: 0;
+}
+.description {
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+@media (max-width: 940px) {
+  #github img {
+    width: 90px;
+    height: 90px;
+  }
+}
